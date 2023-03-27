@@ -31,4 +31,29 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
+
+## 产品设计文档
+
+ProgramerX是一个连接程序员培训机构与项目方的中间平台。
+主要包含集成了第三方的NFT上架、铸造、转换、销毁功能，转换又包含5个1星兑换1个2星，3个2星兑换1个3星的机制。
+
+星的等级越高，可享受的VIP服务待遇就越高，
+  - 销毁1个1星的SBT可兑换1个咨询的SBT，可联系客服预约咨询时间。
+  - 销毁1个2星的SBT可兑换1个跟踪服务套餐，包括项目方的工作联系，面试1V1指导等。
+  - 销毁1个3星的SBT可兑换1个包就业的服务套餐，直接进入项目方工作。
+星的获取来自培训网站课程的学习。
+  - 课程为付费课程
+  - 课程也分星级
+    1. 完成1个1星课程可以铸造获得1个1星的SBT。
+    2. 2星的课程包含5个1星的课程，只是在价格定位上更优惠。
+    3. 3星的课程包含3个2星的课程，价格上最优惠.
+
+
+
+
+
+
+
+
+
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
